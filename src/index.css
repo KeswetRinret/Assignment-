@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input, select {
+  @apply border w-full py-2 px-2 rounded-md focus:outline-none mb-3
+}
